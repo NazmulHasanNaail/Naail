@@ -2,10 +2,16 @@
   .naail-footer{
     background-color: var(--secondary-color);
     color: #fff;
-    padding: 30px 0;
+    padding: 20px 0;
+    p{
+      margin: 10px 0;
+    }
   }
   .naail-social{
     list-style: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
     gap: 30px;
   }
   .naail-social a{

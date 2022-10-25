@@ -44,12 +44,16 @@
     margin: 30px 0;
     display: grid;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   }
   .item{
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center center;
+    aspect-ratio: 1;
+    box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 10%);
+    border: 1px solid #ddd;
+    transition: 0.3s;
   }
   .item .desc{
     width: 100%;
@@ -58,14 +62,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: #fff;
     text-transform: uppercase;
     opacity: 0;
     transition: 0.3s;
-
+    padding: 10px;
   }
-  .item .desc h3{
+  .item .desc h6{
     margin-bottom: 10px;
+    color: #fff;
+  }
+  .item:hover{
+    background-size: 110%;
   }
   .item:hover .desc{
     opacity: 1;

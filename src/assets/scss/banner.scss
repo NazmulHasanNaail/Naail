@@ -24,23 +24,34 @@
     text-transform: uppercase;
   }
   .banner-content span{
-    display: block;
-    margin-bottom: 10px;
-  }
-  .banner-content h1{
+    position: relative;
     display: inline-block; 
+    margin-bottom: 10px;
+    padding-bottom: 13px;
+  }
+  .banner-content span::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    border-bottom: 5px dotted var(--primary-color);
+  }
+
+  .banner-content h1{ 
     position: relative;
     line-height: 1;
     padding-left: 10px;
     color: #fff;
   }
-  .banner-content h1::before{
-    content: "";
-    position: absolute;
-    width: 5px;
-    height: calc(100% - 6px);
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    background-color: var(--primary-color);
-  }
+  // .banner-content h1::before{
+  //   content: "";
+  //   position: absolute;
+  //   width: 5px;
+  //   height: calc(100% - 6px);
+  //   top: 50%;
+  //   left: 0;
+  //   transform: translateY(-50%);
+  //   background-color: var(--primary-color);
+  // }

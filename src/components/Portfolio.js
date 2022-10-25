@@ -1,48 +1,67 @@
 import { useState } from "react";
 import PortfolioItem from "./PortfolioItem";
+import img1 from '../assets/images/stellar-free-template-353x278.jpg';
+import img2 from '../assets/images/personal-website-templates-353x276.jpg';
+import img3 from '../assets/images/knuford-free-template-353x278.jpg';
+import img4 from '../assets/images/create-free-template-353x278.jpg';
+import img5 from '../assets/images/beckham-free-template.jpg';
 
 const portfolios = [
     {
         id: 1,
-        name: 'project name',
-        title:'project tile',
+        name: 'Beckham',
+        title:'Portfolio',
         category: 'web Design',
-        img_url:'https://www.fillmurray.com/640/360',
+        img_url: img1,
     },
     {
         id:2,
-        name: 'project name',
-        title:'project tile',
+        name: 'Create',
+        title:'Business · One Page · Portfolio',
         category: 'WordPress',
-        img_url:'https://loremflickr.com/640/360',
+        img_url: img2,
     },
     {
         id: 3,
-        name: 'project name',
-        title:'project tile',
+        name: 'Knuford',
+        title:'Bootstrap 5 · One Page · Personal Website',
         category: 'web Design',
-        img_url:'https://loremflickr.com/640/360',
+        img_url: img3,
     },
     {
         id: 4,
-        name: 'project name',
-        title:'project tile',
+        name: 'Schmidt',
+        title:'Bootstrap Templates · Personal Website',
         category: 'web Design',
-        img_url:'https://www.fillmurray.com/640/360',
+        img_url: img4,
     },
     {
         id: 5,
-        name: 'project name',
-        title:'project tile',
+        name: 'Personal WordPress Themes',
+        title:'Blog · Creative · Personal Website Templates ·',
         category: 'react',
-        img_url:'https://www.fillmurray.com/640/360',
+        img_url: img5,
     },
     {
         id: 6,
-        name: 'project name',
-        title:'project tile',
+        name: 'Ronin',
+        title:'Landing Page Templates · Personal Website',
         category: 'WordPress',
-        img_url:'https://www.fillmurray.com/640/360',
+        img_url: img3,
+    },
+    {
+        id: 7,
+        name: 'Schmidt',
+        title:'Bootstrap Templates · Personal Website',
+        category: 'web Design',
+        img_url: img4,
+    },
+    {
+        id: 8,
+        name: 'Beckham',
+        title:'Portfolio',
+        category: 'web Design',
+        img_url: img1,
     }
 ]
 

@@ -16,15 +16,15 @@ function About (){
     
     const accordions = [
         {
-            title: "accordion title",
+            title: "Design Internship",
             description: "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',making it look like readable English. Many desktop publishing packages and web page editors now use."
         },
         {
-            title: "accordion title",
+            title: "Web Designer",
             description: "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',making it look like readable English. Many desktop publishing packages and web page editors now use."
         },
         {
-            title: "accordion title",
+            title: "Bachelor Degree of Design",
             description: "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',making it look like readable English. Many desktop publishing packages and web page editors now use."
         }
     ]
@@ -39,7 +39,7 @@ function About (){
                             <img src={aboutImg} alt="about me" />
                         </div>
                         <div className="about-content">
-                            <h2 className="section-heading">About Me</h2>
+                            <h3 className="section-heading">About Me</h3>
                             <p>Hi, I am Nazmul Hasan.On her way she met a copy. 
                             The copy warned the Little Blind Text, that where 
                             it came from it would have been rewritten a thousand 
@@ -50,35 +50,35 @@ function About (){
                         <Link className="naail-btn" to="" >Donwload CV</Link>
                         </div>
                     </div>
-                    <div className="skill-and-education-area">
-                        <div className="education-area">
-                            <h2 className="section-heading">MY EDUCATION</h2>
-                            <Accordion accordions={accordions}/>
-                        </div>
-                        <div className="skill-area">
-                            <h2 className="section-heading">MY SPECIALTY</h2>
-                             <SkillBar skills={skills}/>
-                        </div>
-                    </div>
                     <div className="counter-area">
                         <div className="counter-item text-center">
-                            <div className="counter-number">120</div>
-                            <span>Projects done</span>
+                            <div className="counter-number">120+</div>
+                            <span>Projects Done</span>
+                        </div>
+                        <div className="counter-item text-center">
+                            <div className="counter-number">100+</div>
+                            <span>Satisfaction Client</span>
+                        </div>
+                        <div className="counter-item text-center">
+                            <div className="counter-number">12+</div>
+                            <span>Years Of Experience</span>
                         </div>
                         <div className="counter-item text-center">
                             <div className="counter-number">100</div>
-                            <span>Client</span>
-                        </div>
-                        <div className="counter-item text-center">
-                            <div className="counter-number">12</div>
-                            <span>Partners</span>
-                        </div>
-                        <div className="counter-item text-center">
-                            <div className="counter-number">100</div>
-                            <span>Client</span>
+                            <span>Expert Members</span>
                         </div>
                     </div>
 
+                    <div className="skill-and-education-area">
+                        <div className="education-area">
+                            <h3 className="section-heading">Education & Experience</h3>
+                            <Accordion accordions={accordions}/>
+                        </div>
+                        <div className="skill-area">
+                            <h3 className="section-heading">My Advantage</h3>
+                             <SkillBar skills={skills}/>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
