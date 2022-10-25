@@ -1,0 +1,117 @@
+  /*==header===*/
+.naail-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 20px 0;
+}
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  margin-left: auto;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  display: block;
+  color: #fff;
+  line-height: 0;
+}
+.hamburger:hover {
+  opacity: 0.9;
+}
+
+.site-navigation-wrap{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: .5s;
+  z-index: 999;
+  background-color: var(--secondary-color);
+  box-shadow: -2px 0 8px 1px var(--secondary-color);
+  &.menu-open{
+    width: 80%;
+  }
+} 
+.close-btn{
+    height: 30px;
+    width: 30px;
+    padding: 0;
+    margin: 20px 20px 20px auto;
+    border: 0;
+    line-height: 1;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+}
+.site-menu{
+    list-style: none;
+    margin: 0;
+}
+
+  .site-menu li a{
+    display: inline-block;
+    padding: 10px 0;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    position: relative;
+    transition: 0.3s;
+  }
+  .site-menu li a::after{
+    content: "";
+    width:0;
+    height: 2px;
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    background-color: var(--primary-color);
+    opacity: 0;
+    transition: 0.3s;
+  }
+  .site-menu li a:hover,
+  .site-menu li a.active{
+    color: var(--primary-color);
+  }
+  .site-menu li a:hover::after,
+  .site-menu li a.active::after{
+    opacity: 1;
+    width: 100%;
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .hamburger {
+      display: none;
+    }
+    .naail-header{
+      position: absolute;
+    }
+    .site-menu{
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      padding: 0;
+    }
+    .site-navigation-wrap{
+      position: relative;
+      top: 0;
+      left: 0;
+      width: auto;
+      height: auto;
+      background-color: transparent;
+      box-shadow: none;
+    } 
+    .close-btn{
+      display: none;
+    }
+  }
