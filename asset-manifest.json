@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/naail/static/css/main.06e300d3.css",
+    "main.js": "/naail/static/js/main.5521b194.js",
+    "static/media/profile-shot-aside.jpg": "/naail/static/media/profile-shot-aside.3dc71c434f78a763c62c.jpg",
+    "static/media/profile-shot-confidently.jpg": "/naail/static/media/profile-shot-confidently.a1ded4c73e083f7ec4d2.jpg",
+    "index.html": "/naail/index.html",
+    "main.06e300d3.css.map": "/naail/static/css/main.06e300d3.css.map",
+    "main.5521b194.js.map": "/naail/static/js/main.5521b194.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06e300d3.css",
+    "static/js/main.5521b194.js"
+  ]
+}
