@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/naail/static/css/main.06e300d3.css",
-    "main.js": "/naail/static/js/main.5521b194.js",
+    "main.css": "/naail/static/css/main.2d557c86.css",
+    "main.js": "/naail/static/js/main.6a31131b.js",
     "static/media/profile-shot-aside.jpg": "/naail/static/media/profile-shot-aside.3dc71c434f78a763c62c.jpg",
     "static/media/profile-shot-confidently.jpg": "/naail/static/media/profile-shot-confidently.a1ded4c73e083f7ec4d2.jpg",
+    "static/media/personal-website-templates-353x276.jpg": "/naail/static/media/personal-website-templates-353x276.e8dc2b64ca636d58af35.jpg",
+    "static/media/stellar-free-template-353x278.jpg": "/naail/static/media/stellar-free-template-353x278.4cecace2a1c25b574ea8.jpg",
+    "static/media/knuford-free-template-353x278.jpg": "/naail/static/media/knuford-free-template-353x278.9a09625c57255d9c8e93.jpg",
+    "static/media/create-free-template-353x278.jpg": "/naail/static/media/create-free-template-353x278.be4fc2e483eb9b85ab4c.jpg",
     "index.html": "/naail/index.html",
-    "main.06e300d3.css.map": "/naail/static/css/main.06e300d3.css.map",
-    "main.5521b194.js.map": "/naail/static/js/main.5521b194.js.map"
+    "main.2d557c86.css.map": "/naail/static/css/main.2d557c86.css.map",
+    "main.6a31131b.js.map": "/naail/static/js/main.6a31131b.js.map"
   },
   "entrypoints": [
-    "static/css/main.06e300d3.css",
-    "static/js/main.5521b194.js"
+    "static/css/main.2d557c86.css",
+    "static/js/main.6a31131b.js"
   ]
 }
